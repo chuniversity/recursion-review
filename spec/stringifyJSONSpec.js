@@ -15,7 +15,4 @@ describe('stringifyJSON', function () {
     });
 
   });
-  it('pass my array test', function () {
-    expect(stringifyJSON([1, 2, 3])).to.equal('[1, 2, 3,]')
-  });
 });
